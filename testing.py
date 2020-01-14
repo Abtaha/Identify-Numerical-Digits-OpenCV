@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 import imutils
 
+
 samples = np.loadtxt('models/generalsamples.data',np.float32)
 responses = np.loadtxt('models/generalresponses.data',np.float32)
 responses = responses.reshape((responses.size,1))
