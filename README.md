@@ -1,7 +1,7 @@
 # Identify-Numerical-Digits-OpenCV
 This repo contains the code for training and testing for the Numerical Digits Recognition problem
 
-![Predicted Image](images/Predicted.png)
+![Predicted Image](images/Predicted.gif)
 
 ## Training
 
@@ -10,5 +10,4 @@ When a number is circled with a bounding box, press that number's key.
 
 ## Testing
 
-Change the image in `testing.py` to the image you want to test on. Run the file. The output will be 
-shown accordingly.
+Type the input image when running `testing.py` to the image you want to test on. Run the file. The output will be shown accordingly.
